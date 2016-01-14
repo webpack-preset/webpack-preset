@@ -19,17 +19,34 @@ Want a nice Babel ES2015 setup? Just install the package and save it to your `pa
 npm install --save webpack-preset webpack-preset-babel
 ```
 
-You can run it directly from the `node_modules` install:
+## Getting Started
 
+Webpack Preset runs a small web server on port 3000 with Webpack embedded within it. It's started via the `webpack-preset` binary and will (currently) look for an entry point in a `index.js` file next to your `package.json` file. It also serves up a small HTML file with the Webpack bundle included and a `div#root` for convenience. 
+
+You can run `webpack-preset` directly from the `node_modules` install:
 ```sh
 ./node_modules/.bin/webpack-preset
 ```
-
 Or you can add it to your NPM scripts for easy access:
-
 ```json
 "scripts": {
   "start": "webpack-preset"
 }
 ```
-Just run `npm start` and that's it!
+Just run `npm start` and that's it! You can access the page at [http://localhost:3000](http://localhost:3000)
+
+## Roadmap
+
+- [ ] Read `main` for entry point
+- [ ] Customize the index.html
+- [ ] Userland config options via `package.json`
+- [ ] More CLI options (list installed presets, install more presets)
+- [ ] Globally installable
+
+## Thanks
+
+Bits of this project were inspired by @pirelentio's awesome [sagui project](https://github.com/pirelenito/sagui). Go check it out!
+
+## License
+
+MIT
