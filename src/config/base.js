@@ -9,6 +9,9 @@ module.exports = {
     filename: 'bundle.js',
     publicPath: '/'
   },
+  module: {
+    loaders: []
+  },
   plugins: [
     new webpack.optimize.OccurenceOrderPlugin(),
     new webpack.NoErrorsPlugin()
