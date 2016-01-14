@@ -1,5 +1,4 @@
-<img src="logo.png" align="right" width="150" />
-# Webpack Preset
+# Webpack Preset <img src="logo.png" align="right" width="150" />
 > Zero config [webpack](https://webpack.github.io/)-powered development!
 
 [![npm version](https://img.shields.io/npm/v/webpack-preset.svg?style=flat-square)](https://www.npmjs.com/package/webpack-preset)
