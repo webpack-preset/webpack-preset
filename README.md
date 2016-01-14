@@ -1,4 +1,6 @@
 # Webpack Preset <img src="logo.png" align="right" width="150" />
+
+[![Join the chat at https://gitter.im/webpack-preset/webpack-preset](https://badges.gitter.im/webpack-preset/webpack-preset.svg)](https://gitter.im/webpack-preset/webpack-preset?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 > Zero config [webpack](https://webpack.github.io/)-powered development!
 
 [![npm version](https://img.shields.io/npm/v/webpack-preset.svg?style=flat-square)](https://www.npmjs.com/package/webpack-preset)
