@@ -1,4 +1,7 @@
+const path = require('path');
+
 const express = require('express');
+const serveStatic = require('serve-static');
 
 const webpack = require('webpack');
 const webpackDevMiddleware = require('webpack-dev-middleware');
@@ -13,6 +16,8 @@ app.use(webpackDevMiddleware(compiler, {
   noInfo: true,
   publicPath: config.output.publicPath
 }));
+
+app.use(express.static(path.join(__dirname, '../static')))
 
 app.listen(3000, (err) => {
   if (err) {
