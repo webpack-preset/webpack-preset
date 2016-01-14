@@ -1,3 +1,3 @@
-#!/usr/bin/env node --harmony_destructuring
+#!/usr/bin/env node
 
 require('../src/server');
