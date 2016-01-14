@@ -1,3 +1,4 @@
+<img src="logo.png" align="right" width="150" />
 # Webpack Preset
 > Zero config [webpack](https://webpack.github.io/)-powered development!
 
