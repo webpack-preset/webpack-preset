@@ -1,7 +1,7 @@
-import loadPackageJSON from './json';
-import findPresets from './presets';
+const loadPackageJSON = require('./json');
+const findPresets = require('./presets');
 
-export default function config() {
+module.exports = function config() {
   const packageJSON = loadPackageJSON();
   const presets = findPresets(packageJSON.dependencies);
 

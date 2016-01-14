@@ -15,9 +15,6 @@
     "start": "node ./bin/webpack-preset.js"
   },
   "dependencies": {
-    "babel-preset-es2015": "^6.3.13",
-    "babel-preset-stage-1": "^6.3.13",
-    "babel-register": "^6.3.13",
     "express": "^4.13.3",
     "webpack": "^1.12.11",
     "webpack-dev-middleware": "^1.4.0"

@@ -1,6 +1,3 @@
-#!/usr/bin/env node
+#!/usr/bin/env node --harmony_destructuring
 
-require('babel-register')({
-  only: /webpack-preset-.*/
-});
 require('../src/server');

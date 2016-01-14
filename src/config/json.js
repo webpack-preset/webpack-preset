@@ -1,7 +1,7 @@
-import { join } from 'path';
-import { readFileSync } from 'fs'
+const path = require('path');
+const fs = require('fs');
 
-export default function loadPackageJSON() {
-  const packageJSONPath = join(process.cwd(), 'package.json');
-  return JSON.parse(readFileSync(packageJSONPath));
+module.exports = function loadPackageJSON() {
+  const packageJSONPath = path.join(process.cwd(), 'package.json');
+  return JSON.parse(fs.readFileSync(packageJSONPath));
 }

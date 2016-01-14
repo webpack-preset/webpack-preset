@@ -1,9 +1,9 @@
-import express from 'express';
+const express = require('express');
 
-import webpack from 'webpack';
-import webpackDevMiddleware from 'webpack-dev-middleware';
+const webpack = require('webpack');
+const webpackDevMiddleware = require('webpack-dev-middleware');
 
-import buildConfig from './config';
+const buildConfig = require('./config');
 
 const app = express();
 const config = buildConfig();
