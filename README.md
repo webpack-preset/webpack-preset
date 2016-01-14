@@ -1,6 +1,10 @@
 # Webpack Preset
 > Zero config [webpack](https://webpack.github.io/)-powered development!
 
+[![npm version](https://img.shields.io/npm/v/webpack-preset.svg?style=flat-square)](https://www.npmjs.com/package/webpack-preset)
+[![npm downloads](https://img.shields.io/npm/dm/webpack-preset.svg?style=flat-square)](https://www.npmjs.com/package/webpack-preset)
+[![webpack channel on discord](https://img.shields.io/badge/discord-%23webpack%20%40%20reactiflux-61dafb.svg?style=flat-square)](https://discord.gg/0ZcbPKXt5bVrknv7)
+
 We're all [pretty tired out](https://medium.com/@ericclemmons/javascript-fatigue-48d4011b6fc4#.1p2hp7afi) by Javascript and its tooling. Webpack has [a metric ton of configuration options](https://webpack.github.io/docs/configuration.html) that are particularly overwhelming when starting out, and get tiring after you've set up your eleventy billionth project. This project serves to speed up a lot of the setup process involved with getting webpack up and running.
 
 :warning: **Keep in mind this tool is for quick prototyping and should not be used long-term in your projects.** :warning:   
