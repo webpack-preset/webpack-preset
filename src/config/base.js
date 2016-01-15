@@ -1,8 +1,8 @@
-const webpack = require('webpack');
-const path = require('path');
+const webpack = require('webpack')
+const path = require('path')
 
-module.exports = function(entry) {
-  entry = entry || 'index.js';
+module.exports = function (entry) {
+  entry = entry || 'index.js'
 
   return {
     entry: [
@@ -21,4 +21,4 @@ module.exports = function(entry) {
       new webpack.NoErrorsPlugin()
     ]
   }
-};
+}
