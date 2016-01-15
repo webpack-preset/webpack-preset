@@ -20,9 +20,13 @@ npm install --save webpack-preset webpack-preset-babel
 
 ## Getting Started
 
-Webpack Preset runs a small web server on port 3000 with Webpack embedded within it. It's started via the `webpack-preset` binary and will (currently) look for an entry point in a `index.js` file next to your `package.json` file. It also serves up a small HTML file with the Webpack bundle included and a `div#root` for convenience. 
+Webpack Preset runs a small web server on port 3000 with Webpack embedded within it. It's started via the `webpack-preset` binary and starts a small web server to develop against.
 
-You can run `webpack-preset` directly from the `node_modules` install:
+It will look for an entry point in your `package.json`'s `main` definition, falling back to a `index.js` file next to your `package.json` file.
+
+It also serves up a small HTML file with the Webpack bundle included and a `div#root` for convenience. You can use your own HTML by creating a `static/index.html` file and you can place any other static files in that folder.
+
+`webpack-preset` can be run directly from the `node_modules` folder:
 ```sh
 ./node_modules/.bin/webpack-preset
 ```
@@ -36,8 +40,6 @@ Just run `npm start` and that's it! You can access the page at [http://localhost
 
 ## Roadmap
 
-- [ ] Read `main` for entry point
-- [ ] Customize the index.html
 - [ ] Userland config options via `package.json`
 - [ ] More CLI options (list installed presets, install more presets)
 - [ ] Globally installable
