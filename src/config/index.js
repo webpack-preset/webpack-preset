@@ -9,7 +9,7 @@ module.exports = function config() {
 
   const config = presets.reduce(
     (config, preset) => require(preset)(config),
-    baseConfig
+    baseConfig(packageJSON.main)
   );
 
   return config;

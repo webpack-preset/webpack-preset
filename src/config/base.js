@@ -1,19 +1,24 @@
 const webpack = require('webpack');
+const path = require('path');
 
-module.exports = {
-  entry: [
-    './index.js'
-  ],
-  output: {
-    path: __dirname,
-    filename: 'bundle.js',
-    publicPath: '/'
-  },
-  module: {
-    loaders: []
-  },
-  plugins: [
-    new webpack.optimize.OccurenceOrderPlugin(),
-    new webpack.NoErrorsPlugin()
-  ]
-}
+module.exports = function(entry) {
+  entry = entry || 'index.js';
+
+  return {
+    entry: [
+      './' + path.join('.', entry)
+    ],
+    output: {
+      path: __dirname,
+      filename: 'bundle.js',
+      publicPath: '/'
+    },
+    module: {
+      loaders: []
+    },
+    plugins: [
+      new webpack.optimize.OccurenceOrderPlugin(),
+      new webpack.NoErrorsPlugin()
+    ]
+  }
+};
