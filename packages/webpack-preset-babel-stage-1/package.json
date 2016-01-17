@@ -3,12 +3,9 @@
   "version": "0.1.0",
   "description": "stage-1 Babel preset for webpack-preset-babel",
   "author": "Tim Dorr <timdorr@timdorr.com>",
+  "homepage": "https://github.com/webpack-preset/webpack-preset/tree/master/packages/webpack-preset-babel-stage-1",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/webpack-preset/webpack-preset-babel-stage-1.git"
-  },
-  "homepage": "https://github.com/webpack-preset/webpack-preset-babel-stage-1",
+  "repository": "https://github.com/webpack-preset/webpack-preset/tree/master/packages/webpack-preset-babel-stage-1",
   "main": "index.js",
   "dependencies": {
     "babel-preset-stage-1": "^6.3.13"
