@@ -1,6 +1,6 @@
 {
   "name": "webpack-preset-babel-stage-3",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "stage-3 Babel preset for webpack-preset-babel",
   "author": "Tim Dorr <timdorr@timdorr.com>",
   "homepage": "https://github.com/webpack-preset/webpack-preset/tree/master/packages/webpack-preset-babel-stage-3",
