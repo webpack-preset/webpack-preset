@@ -2,9 +2,7 @@ const path = require('path')
 const fs = require('fs')
 
 const express = require('express')
-
 const webpack = require('webpack')
-const webpackDevMiddleware = require('webpack-dev-middleware')
 
 const buildConfig = require('./config')
 
@@ -12,11 +10,13 @@ const app = express()
 const config = buildConfig()
 const compiler = webpack(config)
 
-app.use(webpackDevMiddleware(compiler, {
+app.use(require('webpack-dev-middleware')(compiler, {
   noInfo: true,
   stats: { colors: true },
   publicPath: config.output.publicPath
 }))
+
+app.use(require('webpack-hot-middleware')(compiler))
 
 try {
   fs.accessSync('./static/index.html', fs.R_OK)

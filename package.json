@@ -19,7 +19,8 @@
   "dependencies": {
     "express": "^4.13.3",
     "webpack": "^1.12.11",
-    "webpack-dev-middleware": "^1.4.0"
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.6.0"
   },
   "devDependencies": {
     "babel-eslint": "^5.0.0-beta6",
