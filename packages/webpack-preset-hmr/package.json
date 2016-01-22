@@ -1,0 +1,13 @@
+{
+  "name": "webpack-preset-hmr",
+  "version": "0.2.0",
+  "description": "Zero config hot module reloading!",
+  "author": "Tim Dorr <timdorr@timdorr.com>",
+  "homepage": "https://github.com/webpack-preset/webpack-preset/tree/master/packages/webpack-preset-hmr",
+  "license": "MIT",
+  "repository": "https://github.com/webpack-preset/webpack-preset/tree/master/packages/webpack-preset-hmr",
+  "main": "index.js",
+  "dependencies": {
+    "webpack": "^1.12.11"
+  }
+}
