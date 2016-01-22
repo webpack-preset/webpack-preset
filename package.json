@@ -11,6 +11,12 @@
   "homepage": "https://github.com/webpack-preset/webpack-preset",
   "main": "index.js",
   "bin": "./bin/webpack-preset.js",
+  "files": [
+    "README.md",
+    "src/*",
+    "static/*",
+    "bin/*"
+  ],
   "scripts": {
     "start": "node ./bin/webpack-preset.js",
     "lint": "eslint src",
