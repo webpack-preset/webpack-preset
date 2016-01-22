@@ -1,6 +1,6 @@
 {
   "name": "webpack-preset-babel",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Zero config babel-loader!",
   "author": "Tim Dorr <timdorr@timdorr.com>",
   "homepage": "https://github.com/webpack-preset/webpack-preset/tree/master/packages/webpack-preset-babel",

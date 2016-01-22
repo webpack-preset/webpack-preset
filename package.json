@@ -1,6 +1,6 @@
 {
   "name": "webpack-preset",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Zero config webpack-powered development!",
   "author": "Tim Dorr <timdorr@timdorr.com>",
   "license": "MIT",
