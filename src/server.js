@@ -20,9 +20,9 @@ app.use(require('webpack-hot-middleware')(compiler))
 
 try {
   fs.accessSync('./static/index.html', fs.R_OK)
-  app.use(express.static('./static'))
+  app.use((req, res) => res.sendFile('./static/index.html'))
 } catch (e) {
-  app.use(express.static(path.join(__dirname, '../static')))
+  app.use((req, res) => res.sendFile(path.join(__dirname, '../static/index.html')))
 }
 
 app.listen(3000, (err) => {
