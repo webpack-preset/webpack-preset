@@ -9,7 +9,7 @@ module.exports = function (entry) {
       './' + path.join('.', entry)
     ],
     output: {
-      path: __dirname,
+      path: process.cwd(),
       filename: 'bundle.js',
       publicPath: '/'
     },
